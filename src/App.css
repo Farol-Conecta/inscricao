@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+@font-face {
+  font-family: "Gotham Medium Italic";
+  src: local(Gotham Medium Italic), url(./assets/font/GothamMedium-Italic.otf);
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham Medium";
+  src: local(Gotham Medium), url(./assets/font/GothamMedium.otf);
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+:root {
+  margin: 0;
+  padding: 0;
+  --primary-color: #a48144;
+  --secondary-color: #01102d;
+}
+.App {
+  font-family: "Gotham Medium";
+  width: 100%;
+}
